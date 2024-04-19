@@ -27,7 +27,7 @@ function Work() {
         <main id='work' className='bg-customBlack mt-20 pb-2 relative'>
             <div className='introwork w-5/6 mx-auto pt-5'>
                 <div className="grid xl:grid-cols-2 sm:py-5 py-10 ">
-                    <span className=" sm:text-7xl text-5xl text-customExperience font-black">Experiences.</span>
+                    <span className=" sm:text-7xl text-5xl text-customExperience font-black">Experiences</span>
                     <span className=" sm:text-justify font-semibold text-md text-customUl">"I'm not afraid of storms, for I'm learning how to sail my ship" Every project is a journey of discovery, improving my skills and focus. I learn, innovate, and progress, seeing challenges as opportunities.</span>
                 </div>
             </div>
