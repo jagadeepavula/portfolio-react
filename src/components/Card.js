@@ -4,11 +4,14 @@ import { motion, AnimatePresence, useDragControls, useMotionValue } from 'framer
 function Card({ item }) {
     const [showModal, setShowModal] = useState(false);
     const [selectedDesc, setSelectedDesc] = useState('');
+    const [selectedAdditionalData, setSelectedAdditionalData] = useState('');
+
     const controls = useDragControls();
     const y = useMotionValue(0);
 
-    const handleDetailsClick = (id, desc) => {
+    const handleDetailsClick = (id, desc, herosa) => {
         setSelectedDesc(desc);
+        setSelectedAdditionalData(herosa);
         setShowModal(true);
     };
 
@@ -73,10 +76,12 @@ function Card({ item }) {
                             display: 'none',
                         },
                     }}
-                    className='text-3xl font-black relative h-full w-5/6 justify-center items-center text-justify p-4 pt-12 text-white modal-content scrollbar-hidden overflow-y-auto'>
-                    {selectedDesc}
+                    className='text-3xl font-bold relative h-full w-5/6 justify-center items-center text-justify p-4 pt-12 text-white modal-content scrollbar-hidden overflow-y-auto'>
+                    <div dangerouslySetInnerHTML={{ __html: selectedDesc }}></div>
+                    {selectedAdditionalData && <div className="mt-4 text-xl font-bold" dangerouslySetInnerHTML={{ __html: selectedAdditionalData }}></div>}
                 </div>
-                {/* Close button */}
+
+
             </motion.div>
 
             <div className='project-button-section w-5/6 grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1  items-center'>
@@ -96,7 +101,7 @@ function Card({ item }) {
                             </div>
 
                             <div className='card-body flex flex-col items-center justify-center'>
-                                <div className='project-title text-3xl font-bold m-2'>{val.title}</div>
+                                <div className='project-title items-center text-3xl font-bold m-2'>{val.title}</div>
                                 <div className='project-desc text-justify font-medium p-2'>{val.desc}</div>
                                 <div className='flex flex-row justify-between gap-2 mt-4'>
                                     <a
@@ -111,7 +116,7 @@ function Card({ item }) {
                                     {/* Details Button */}
                                     <button
                                         className='flex flex-grow border-none justify-center text-base rounded-3xl bg-black cursor-pointer text-white font-bold items-center h-9 w-16 no-underline'
-                                        onClick={() => handleDetailsClick(val.id, val.desc)}
+                                        onClick={() => handleDetailsClick(val.id, val.moreDetails, val.herosa)}
                                     >
                                         Details
                                     </button>

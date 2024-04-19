@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Datas from '../Data/Data'
 import Card from '../../components/Card'
 import Buttons from '../../components/Buttons'
-// import { DragCloseDrawerExample } from '../../components/Modal'
 
 function Project() {
     const [item, setItems] = useState(Datas)
@@ -28,9 +27,6 @@ function Project() {
             <div className='flex flex-wrap justify-center'>
                 <Card item={item} />
             </div>
-            {/* <div>
-                <DragCloseDrawerExample item={item}/>
-            </div> */}
         </div>
     )
 }

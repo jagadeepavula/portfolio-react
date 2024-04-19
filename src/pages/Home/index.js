@@ -7,7 +7,7 @@ import Project from './Project'
 import Socials from './Socials'
 import Defaced from './Defaced'
 import Footer from './Footer'
-// import Footer from './Footer'
+
 
 function Home() {
     return (
