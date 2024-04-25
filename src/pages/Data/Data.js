@@ -1,20 +1,21 @@
-import weatherImage from '../../assets/chumma.jpg';
 import DriveLink from "../../assets/DriveLink.png";
 import Survival from "../../assets/Survival.png";
 import SonyMusic from "../../assets/SonyMusic2.jpg";
 import TreatTime from "../../assets/TreatTime.jpg";
 import Wareflow from "../../assets/Wareflow.jpg";
 import WeatherApp from "../../assets/WeatherApp.png";
+import PortfolioImg from "../../assets/portfolio.png";
+import AudiotoText from "../../assets/AudiotoText.png";
 
 const Datas = [
-    {
-        id: "1",
-        title: "Drive Link Generator",
-        category: "Code",
-        Link: "https://github.com/jagadeepavula/direct-link-download",
-        image: DriveLink,
-        desc: "Drive Link Converter is a simple web application that converts Google Drive sharing links to direct download links. It extracts the file ID from the Drive link and constructs a direct download link, making it easier for users to download files.",
-        moreDetails: `<h3 class="text-3xl font-bold">Problem Statement</h3>
+  {
+    id: "1",
+    title: "Drive Link Generator",
+    category: "Code",
+    Link: "https://github.com/jagadeepavula/direct-link-download",
+    image: DriveLink,
+    desc: "Drive Link Converter is a simple web application that converts Google Drive sharing links to direct download links. It extracts the file ID from the Drive link and constructs a direct download link, making it easier for users to download files.",
+    moreDetails: `<h3 class="text-3xl font-bold">Problem Statement</h3>
         <p class="text-2xl font-thin">In my previous project, I encountered an issue where I needed to create direct download links for files stored in Google Drive. This was crucial for seamlessly integrating audio file downloads into my project. However, manually creating these links was cumbersome and not scalable, especially when working on multiple projects simultaneously.</p><br/>
         
         <h3 class="text-3xl font-bold">Solution Overview</h3>
@@ -41,18 +42,16 @@ const Datas = [
         <h3 class="text-3xl font-bold">Outcome</h3>
         <p class="text-2xl font-thin">The Drive link generator successfully streamlined the process of creating direct download links from Google Drive, addressing the initial challenge and improving overall project efficiency.</p><br/>
         
-        <p class="text-2xl font-thin">By implementing this solution, I demonstrated my ability to tackle real-world problems creatively and leverage web technologies effectively to enhance project functionality.</p>` ,
-
-
-    },
-    {
-        id: "2",
-        title: "Survival Kit",
-        Link: "https://www.figma.com/proto/vN0ioT23UcEAYzTLtifNeO/First-Prototype?node-id=52-960&scaling=scale-down&page-id=0%3A1&starting-point-node-id=11%3A28",
-        category: "Design",
-        image: Survival,
-        desc: "I designed a user-friendly interface using Figma to help the homeless and underprivileged easily locate free housing, food, and clothing resources. The UI aims to solve the problem of uncertainty and inconvenience in finding essential resources during tough times.",
-        moreDetails: `<h3 class="text-3xl font-bold">Project Overview</h3>
+        <p class="text-2xl font-thin">By implementing this solution, I demonstrated my ability to tackle real-world problems creatively and leverage web technologies effectively to enhance project functionality.</p>`,
+  },
+  {
+    id: "2",
+    title: "Survival Kit",
+    Link: "https://www.figma.com/proto/vN0ioT23UcEAYzTLtifNeO/First-Prototype?node-id=52-960&scaling=scale-down&page-id=0%3A1&starting-point-node-id=11%3A28",
+    category: "Design",
+    image: Survival,
+    desc: "I designed a user-friendly interface using Figma to help the homeless and underprivileged easily locate free housing, food, and clothing resources. The UI aims to solve the problem of uncertainty and inconvenience in finding essential resources during tough times.",
+    moreDetails: `<h3 class="text-3xl font-bold">Project Overview</h3>
         <p class="text-2xl font-thin">The Survival Kit UI project aims to address the critical needs of underprivileged individuals, particularly the homeless and impoverished, by providing a resource locator application deployed on kiosks across public areas in Corvallis. The objective is to offer information about essential resources such as housing, food drives, and clothes donation locations to make their lives more manageable during tough times.</p><br/>
         
         <h3 class="text-3xl font-bold">Problem Statement</h3>
@@ -86,43 +85,42 @@ const Datas = [
         <a href="https://drive.google.com/drive/folders/1guVzfnrEn9ba7PRfOX62HpAf6q075fNk">Google Drive Folder</a>
         
         `,
-    },
-    {
-        id: "3",
-        title: "Sony Music South",
-        Link: "https://dribbble.com/shots/14174834-Kamal-haasan-X-her",
-        category: "Design",
-        image: SonyMusic,
-        desc: "I collaborated with Sony Music India on a music video project, crafting a standout illustration that significantly elevated the video's visual impact. The video has amassed an impressive 63 million views, showcasing the illustration's contribution to its success.",
-        moreDetails: ``
-            ,
-    },
-    {
-        id: "4",
-        title: "Treat Time",
-        Link: "https://dribbble.com/shots/14128604-Redesign",
-        category: "Design",
-        image: TreatTime,
-        desc: "I designed a logo and typography for Treat Time, a beverage company based in Hyderabad. The logo represents the brand's diverse range of drinks, contributing to its identity and visual appeal.",
-        moreDetails: "Additional details about project 1",
-    },
-    {
-        id: "5",
-        title: "Wareflow",
-        Link: "https://dribbble.com/shots/22117814-Wareflow-logo-design",
-        category: "Design",
-        image: Wareflow,
-        desc: "In my role on the AmeriFab project, I spearheaded the creation of a logo for their innovative floor management tool. I also picked typography that matches the tool's look and feel, making it more appealing and easy to use.",
-        moreDetails: "Additional details about project 1",
-    },
-    {
-        id: "6",
-        title: "Weather App",
-        Link: "asdf",
-        category: "Code",
-        image: WeatherApp,
-        desc: "I developed a web application using React and JavaScript that utilizes the OpenWeather API to fetch real-time data. The app allows users to search for weather information such as wind speed and humidity in different cities.",
-        moreDetails: `<h3 class="text-3xl font-bold">Project Overview</h3>
+  },
+  {
+    id: "3",
+    title: "Sony Music",
+    Link: "https://dribbble.com/shots/14174834-Kamal-haasan-X-her",
+    category: "Design",
+    image: SonyMusic,
+    desc: "I collaborated with Sony Music India on a music video project, designed a standout illustration that  elevated the video's visuals. The video has amassed an impressive 63 million views, showcasing the illustration's contribution to its success.",
+    moreDetails: ``,
+  },
+  {
+    id: "4",
+    title: "Treat Time",
+    Link: "https://dribbble.com/shots/14128604-Redesign",
+    category: "Design",
+    image: TreatTime,
+    desc: "I designed a logo and typography for Treat Time, a beverage company based in Hyderabad. The logo represents the brand's diverse range of drinks, contributing to its identity and visual appeal.",
+    moreDetails: "Additional details about project 1",
+  },
+  {
+    id: "5",
+    title: "Wareflow",
+    Link: "https://dribbble.com/shots/22117814-Wareflow-logo-design",
+    category: "Design",
+    image: Wareflow,
+    desc: "In my role on the AmeriFab project, I spearheaded the creation of a logo for their innovative floor management tool. I also picked typography that matches the tool's look and feel, making it more appealing and easy to use.",
+    moreDetails: "Additional details about project 1",
+  },
+  {
+    id: "6",
+    title: "Weather App",
+    Link: "asdf",
+    category: "Code",
+    image: WeatherApp,
+    desc: "I developed a web application using React and JavaScript that utilizes the OpenWeather API to fetch real-time data. The app allows users to search for weather information such as wind speed and humidity in different cities.",
+    moreDetails: `<h3 class="text-3xl font-bold">Project Overview</h3>
         <p class="text-2xl font-thin">The Weather App is a user-friendly web application developed using JavaScript, HTML, and CSS, leveraging the OpenWeather API to provide real-time weather data for cities worldwide. The app allows users to easily check the weather conditions of their desired city by entering the city name and clicking "Enter."</p><br/>
         
         <h3 class="text-3xl font-bold">Problem Statement</h3>
@@ -153,15 +151,15 @@ const Datas = [
         
         
         `,
-    },
-    {
-        id: "7",
-        title: "Audio to Text using Assembly AI",
-        Link: "https://github.com/jagadeepavula",
-        category: "Code",
-        image: weatherImage,
-        desc: "7 Our React-based weather app utilizes OpenWeather API to deliver real-time weather updates. With a user-friendly interface and location-based data, users can easily access accurate weather forecasts, including temperature, humidity, and wind speed, for any location worldwide.",
-        moreDetails: `<h3 class= "text-3xl font-bold">Project Overview</h3>
+  },
+  {
+    id: "7",
+    title: "Audio to Text:Assembly AI",
+    Link: "https://github.com/jagadeepavula/Audio-to-Text-Assembly-AI/tree/main/AudioToTextConverter",
+    category: "Code",
+    image: AudiotoText,
+    desc: "I developed a project utilizing Assembly AI API for converting audio files into text seamlessly. Users can upload audio files, and the system provides accurate text transcripts, catering to needs like subtitles and accessibility.",
+    moreDetails: `<h3 class= "text-3xl font-bold">Project Overview</h3>
         <p class="text-2xl font-thin">For a recent project, I worked on integrating audio transcription functionality using a REST API. The goal was to convert audio files into text format programmatically, streamlining data processing and analysis tasks.</p><br/>
         
         <h3 class="text-3xl font-bold">Problem Statement</h3>
@@ -196,16 +194,30 @@ const Datas = [
         <p class="text-2xl font-thin">This project has had a positive impact on data processing workflows, especially in tasks requiring audio content analysis. Moving forward, potential enhancements could include incorporating real-time transcription features or expanding support for additional audio formats.</p><br/>
         
         `,
-    },
-    {
-        id: "8",
-        title: "Treat Time",
-        Link: "$15",
-        category: "Code",
-        image: weatherImage,
-        desc: "8 Our React-based weather app utilizes OpenWeather API to deliver real-time weather updates. With a user-friendly interface and location-based data, users can easily access accurate weather forecasts, including temperature, humidity, and wind speed, for any location worldwide.",
-        moreDetails: "Additional details about project 1",
-    }
+  },
+  {
+    id: "8",
+    title: "Portfolio",
+    Link: "https://github.com/jagadeepavula/portfolio-react",
+    category: "Code",
+    image: PortfolioImg,
+    desc: "Designed and developed my portfolio using HTML, Tailwind CSS, JavaScript, and React framework, with animated elements powered by Framer Motion. Explore a visually captivating showcase of my skills, projects, and experiences.",
+    moreDetails: `<h3 class="text-3xl font-bold">Portfolio Overview</h3>
+        <p class="text-2xl font-thin">Designed and developed my portfolio using HTML, Tailwind CSS, JavaScript, and React framework, with animated elements powered by Framer Motion. Explore a visually captivating showcase of my skills, projects, and experiences.</p><br/>
+        
+        <h3 class="text-3xl font-bold">Key Features</h3>
+        <ul class="list-disc ml-8">
+          <li class="text-2xl font-thin">Responsive design for seamless viewing on all devices.</li>
+          <li class="text-2xl font-thin">Interactive animations created with Framer Motion to enhance user experience.</li>
+          <li class="text-2xl font-thin">Tailwind CSS used for rapid and efficient styling, ensuring a modern and sleek look.</li>
+          <li class="text-2xl font-thin">JavaScript functionality incorporated for dynamic content and interactivity.</li>
+          <li class="text-2xl font-thin">React components for modular and scalable architecture.</li>
+        </ul><br/>
+        
+        <h3 class="text-3xl font-bold">Future Enhancements</h3>
+        <p class="text-2xl font-thin">Continued development plans may include integrating additional features like a blog section, contact form, and portfolio filtering options to further enrich the user experience.</p><br/>
+        `,
+  },
 ];
 
 export default Datas;

@@ -43,7 +43,7 @@ function Defaced() {
                         </motion.div>
 
                         <motion.div
-                            className='card2  lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] rounded-lg shadow-md z-20 bg-customCard2 flex flex-col justify-end'
+                            className='card2  lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] rounded-lg shadow-md z-0 bg-customCard2 flex flex-col justify-end'
                             initial={{ rotate: -3, }}
                             whileHover={{ rotate: -3, scale: 1.1 }}
                             transition={{ duration: 0.3 }}
@@ -56,7 +56,7 @@ function Defaced() {
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <motion.div
-                            className='card3 lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] bg-customCard3 rounded-lg shadow-md z-40 flex flex-col justify-end'
+                            className='card3 lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] bg-customCard3 rounded-lg shadow-md z-10 flex flex-col justify-end'
                             initial={{ rotate: 3 }}
                             whileHover={{ rotate: 3, scale: 1.1 }}
                             transition={{ duration: 0.3 }}
@@ -71,7 +71,7 @@ function Defaced() {
 
                     <div className='flex flex-row items-center justify-center md:space-x-20'>
                         <motion.div
-                            className=' card4  lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] bg-customVanillaFont rounded-lg shadow-md z-10 flex flex-col justify-end'
+                            className=' card4  lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] bg-customVanillaFont rounded-lg shadow-md z-20 flex flex-col justify-end'
                             initial={{ rotate: -3 }}
                             whileHover={{ rotate: -3, scale: 1.1 }}
                             transition={{ duration: 0.3 }}
@@ -83,7 +83,7 @@ function Defaced() {
                         </motion.div>
 
                         <motion.div
-                            className=' card5  lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] bg-customCard5 rounded-lg shadow-md z-50 flex flex-col justify-end '
+                            className=' card5  lg:w-[20rem] lg:h-[30rem] w-[12rem] h-[18rem] bg-customCard5 rounded-lg shadow-md z-20 flex flex-col justify-end '
                             initial={{ rotate: 5 }}
                             whileHover={{ rotate: 5, scale: 1.1 }}
                             transition={{ duration: 0.3 }}

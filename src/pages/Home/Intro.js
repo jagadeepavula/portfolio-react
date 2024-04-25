@@ -11,7 +11,7 @@ function Intro() {
     <div id='home' className='flex h-screen justify-center'>
       <div className='flex flex-col w-5/6 justify-center'>
         <motion.span
-          className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter"
+          className="font-bold text-5xl sm:text-6xl text-customText md:text-7xl lg:text-8xl tracking-tighter"
           variants={textVariants}
           initial="hidden"
           animate="visible"
@@ -21,7 +21,7 @@ function Intro() {
         </motion.span>
         <br />
         <motion.span
-          className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter"
+          className="font-bold text-5xl text-customText sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter"
           variants={textVariants}
           initial="hidden"
           animate="visible"
@@ -30,7 +30,7 @@ function Intro() {
           Jagadeep Avula
         </motion.span>
         <motion.p
-          className="text-md sm:text-2xl font-normal text-justify leading-7 sm:max-w-4/5 max-w-5/6 pl-16 sm:pl-20 md:pl-28 lg:pl-32 mt-2"
+          className="text-md sm:text-2xl font-normal text-customText text-justify leading-7 sm:max-w-4/5 max-w-5/6 pl-16 sm:pl-20 md:pl-28 lg:pl-32 mt-2"
           variants={textVariants}
           initial="hidden"
           animate="visible"

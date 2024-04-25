@@ -28,7 +28,7 @@ function Card({ item }) {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className='fixed inset-0 bg-neutral-950/70 z-40'
+                    className='fixed inset-0 bg-neutral-950/70 z-30'
                     onClick={handleCloseModal}
                 ></motion.div>
             )}
