@@ -51,7 +51,9 @@ const Datas = [
     category: "Design",
     image: Survival,
     desc: "I designed a user-friendly interface using Figma to help the homeless and underprivileged easily locate free housing, food, and clothing resources. The UI aims to solve the problem of uncertainty and inconvenience in finding essential resources during tough times.",
-    moreDetails: `<h3 class="text-3xl font-bold">Project Overview</h3>
+    moreDetails: `
+    <a href="https://drive.google.com/drive/folders/1guVzfnrEn9ba7PRfOX62HpAf6q075fNk">Google Drive Folder</a><br/>
+    <h3 class="text-3xl font-bold">Project Overview</h3>
         <p class="text-2xl font-thin">The Survival Kit UI project aims to address the critical needs of underprivileged individuals, particularly the homeless and impoverished, by providing a resource locator application deployed on kiosks across public areas in Corvallis. The objective is to offer information about essential resources such as housing, food drives, and clothes donation locations to make their lives more manageable during tough times.</p><br/>
         
         <h3 class="text-3xl font-bold">Problem Statement</h3>
@@ -82,7 +84,7 @@ const Datas = [
 
         <h3 class="text-3xl font-bold">Future Enhancements</h3>
         <p class="text-2xl font-thin">Future plans may include expanding the application's reach to more locations, incorporating real-time updates on resource availability, and integrating feedback mechanisms to continuously improve the user experience based on user insights.</p><br/>
-        <a href="https://drive.google.com/drive/folders/1guVzfnrEn9ba7PRfOX62HpAf6q075fNk">Google Drive Folder</a>
+        
         
         `,
   },
@@ -93,7 +95,38 @@ const Datas = [
     category: "Design",
     image: SonyMusic,
     desc: "I collaborated with Sony Music India on a music video project, designed a standout illustration that  elevated the video's visuals. The video has amassed an impressive 63 million views, showcasing the illustration's contribution to its success.",
-    moreDetails: ``,
+    moreDetails: `
+    <a href="https://youtu.be/Lyr6c84d5AI?si=jfh1B9ombHTki4Qa">Youtube Video</a><br/>
+    <h3 class="text-3xl font-bold">Creative Collaboration with Sony Music India: Elevating Visuals with Illustration</h3>
+
+    <p class="text-2xl font-thin">In a dynamic collaboration with Sony Music India, I contributed a visually striking illustration that played a pivotal role in enhancing the overall appeal of a music video project. Leveraging my expertise in Adobe Illustrator, Photoshop, and Procreate, I meticulously crafted a standout visual narrative that seamlessly integrated with the video's theme and narrative.</p><br/>
+
+    <h3 class="text-3xl font-bold">Conceptualization and Design Process</h3>
+
+    <p class="text-2xl font-thin">The journey began with conceptualizing the key elements of the illustration, aligning them with the essence of the music video. Through a fusion of creativity and technical skill, I brought to life a vibrant and captivating artwork that resonated with the project's artistic vision.</p><br/>
+
+    <h4 class="text-2xl font-bold">Adobe Illustrator for Precision and Detail</h4>
+
+    <p class="text-2xl font-thin">Utilizing Adobe Illustrator, I meticulously crafted vector art that ensured crispness and scalability, essential for maintaining visual integrity across different platforms and resolutions. This phase involved intricate detailing, color blending, and thematic cohesion to create a cohesive and impactful visual narrative.</p><br/>
+
+    <h4 class="text-2xl font-bold">Typography and Editing in Photoshop</h4>
+
+    <p class="text-2xl font-thin">In parallel, Adobe Photoshop played a crucial role in typography integration and final editing touches. I curated typography elements that complemented the illustration, enhancing readability and visual harmony. Additionally, Photoshop enabled seamless integration of the illustration into the video, ensuring a cohesive and immersive viewer experience.</p><br/>
+
+    <h4 class="text-2xl font-bold">Enhancing Depth and Texture with Procreate</h4>
+
+    <p class="text-2xl font-thin">To add depth and a touch of organic texture, I utilized Procreate, enriching the illustration with brush strokes and subtle nuances that elevated its visual appeal. This step added a layer of realism and dynamic visual interest, contributing to the overall immersive experience of the music video.</p><br/>
+
+    <h3 class="text-3xl font-bold">Impact and Success Metrics</h3>
+
+    <p class="text-2xl font-thin">The collaboration culminated in an awe-inspiring music video that garnered a remarkable 63 million views, highlighting the significant contribution of the illustration to its success. The artwork served as a visual anchor, capturing the audience's attention and enhancing the video's storytelling impact.</p><br/>
+
+    <h3 class="text-3xl font-bold">Demonstrating Creativity and Technical Proficiency</h3>
+
+    <p class="text-2xl font-thin">Through this project, I demonstrated not only creative flair but also a mastery of industry-standard design tools and techniques. The seamless integration of vector art, typography, and digital painting underscored my ability to deliver high-impact visuals that resonate with audiences and elevate project outcomes.</p><br/>
+
+    <p class="text-2xl font-thin">In summary, my collaboration with Sony Music India exemplified the power of visual storytelling and the transformative impact of illustration in enhancing multimedia projects. It showcased a harmonious blend of creativity, technical expertise, and collaborative spirit, resulting in a visually captivating and commercially successful music video experience.</p><br/>
+`,
   },
   {
     id: "4",
@@ -102,7 +135,26 @@ const Datas = [
     category: "Design",
     image: TreatTime,
     desc: "I designed a logo and typography for Treat Time, a beverage company based in Hyderabad. The logo represents the brand's diverse range of drinks, contributing to its identity and visual appeal.",
-    moreDetails: "Additional details about project 1",
+    moreDetails: `<h3 class="text-3xl font-bold">Treat Time Logo: Crafted for Impact and Readability</h3>
+
+    <p class="text-2xl font-thin">The logo for Treat Time, a vibrant beverage brand encompassing various drink offerings, was meticulously designed to resonate with its audience while standing out amidst competitors. Here's a breakdown of the design choices:</p><br/>
+
+    <h4 class="text-2xl font-bold">Color Selection: Yellow and Black</h4>
+
+    <p class="text-2xl font-thin">Yellow symbolizes energy, enthusiasm, and positivity, aligning perfectly with the refreshing and invigorating nature of beverages offered by Treat Time. Black, on the other hand, adds a touch of sophistication and timelessness, creating a balanced and visually appealing color palette.</p><br/>
+
+    <h4 class="text-2xl font-bold">Typography: Readability and Brand Identity</h4>
+
+    <p class="text-2xl font-thin">The chosen font was meticulously selected for its readability and brand identity. It strikes a balance between being eye-catching and easy to read, ensuring that consumers can quickly identify the brand and its offerings. Extensive research and analysis of competitor logos and typography were conducted to ensure that Treat Time's logo stands out prominently while maintaining a professional and inviting look.</p><br/>
+
+    <h4 class="text-2xl font-bold">Psychological Impact:</h4>
+
+    <p class="text-2xl font-thin">On a psychological level, yellow evokes feelings of happiness, warmth, and positivity, making it an ideal choice for a brand focused on enjoyment and relaxation. Combined with black, which conveys elegance and sophistication, the logo creates a strong visual impression that resonates with consumers on both a conscious and subconscious level.</p><br/>
+
+    <h3 class="text-3xl font-bold">Result and Impact</h3>
+
+    <p class="text-2xl font-thin">The Treat Time logo, with its vibrant color scheme, carefully selected typography, and strategic design elements, has become a hallmark of the brand's identity. It not only stands out among competitors but also communicates the brand's core values of quality, enjoyment, and reliability, making it instantly recognizable and memorable for consumers.</p><br/>
+`,
   },
   {
     id: "5",
@@ -111,12 +163,27 @@ const Datas = [
     category: "Design",
     image: Wareflow,
     desc: "In my role on the AmeriFab project, I spearheaded the creation of a logo for their innovative floor management tool. I also picked typography that matches the tool's look and feel, making it more appealing and easy to use.",
-    moreDetails: "Additional details about project 1",
+    moreDetails: `<h3 class="text-3xl font-bold">WareFlow Logo: Symbolizing Efficiency and Growth</h3>
+
+    <p class="text-2xl font-thin">The logo and brand name for WareFlow, a cutting-edge SAAS floor management tool, were meticulously crafted to reflect the software's core values of efficiency, flow, and growth. Here's a breakdown of the design elements:</p><br/>
+
+    <h4 class="text-2xl font-bold">Logo Design: W with Arrow and Flow Symbolism</h4>
+
+    <p class="text-2xl font-thin">The logo features a stylized 'W' with an arrow at the tip, symbolizing upward growth and progress. This visual element communicates WareFlow's commitment to facilitating growth and improvement for businesses using its floor management solutions. Additionally, the incorporation of 'flow' within the brand name symbolizes the seamless and effortless workflow facilitated by the software.</p><br/>
+
+    <h4 class="text-2xl font-bold">Color Scheme: Blue and Golden Ratio</h4>
+
+    <p class="text-2xl font-thin">The color palette of blue and golden ratio was deliberately chosen to evoke feelings of trust, professionalism, and innovation. Blue represents reliability and stability, reflecting WareFlow's commitment to providing robust and dependable software solutions. The golden ratio adds a touch of elegance and harmony, further enhancing the brand's visual appeal and credibility.</p><br/>
+
+    <h3 class="text-3xl font-bold">Symbolism and Impact</h3>
+
+    <p class="text-2xl font-thin">The WareFlow logo and brand name encapsulate the essence of efficient floor management, growth-oriented solutions, and user-friendly workflows. By combining meaningful symbolism with a visually appealing color scheme, WareFlow establishes itself as a trusted partner for businesses seeking streamlined operations and sustainable growth.</p><br/>
+`,
   },
   {
     id: "6",
     title: "Weather App",
-    Link: "asdf",
+    Link: "https://github.com/jagadeepavula/Weather-app",
     category: "Code",
     image: WeatherApp,
     desc: "I developed a web application using React and JavaScript that utilizes the OpenWeather API to fetch real-time data. The app allows users to search for weather information such as wind speed and humidity in different cities.",

@@ -7,6 +7,8 @@ import { ReactComponent as GmailLogo } from "../../assets/gmail.svg";
 import { ReactComponent as InstagramLogo } from "../../assets/instagram.svg";
 import { ReactComponent as ResumeLogo } from "../../assets/resume.svg";
 import resumePdf from "../../assets/resume.pdf";
+import Godfather from "../../assets/godfather.gif";
+import HoverImageComponent from "../../components/HoverImageComponent";
 
 function Socials() {
   const handleLinkedinClick = () => {
@@ -62,8 +64,14 @@ function Socials() {
               role you're trying to fill, shoot me an email. Or let's connect
               and chat over chai on LinkedIn about code, design, or anything
               that doesn't involve pineapple on pizza. Insta's where movie buffs
-              unite—DM for popcorn-worthy recommendations. Make me an offer i
-              can't refuse!
+              unite—DM for popcorn-worthy recommendations.{" "}
+              <HoverImageComponent
+                imageSrc={Godfather}
+                alt="Designed Image"
+                className="inline-block"
+                text="Make me an offer i
+              can't refuse!"
+              />
             </h4>
           </span>
         </div>

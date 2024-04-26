@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-scroll";
 import resumePdf from "../../assets/resume.pdf";
+import HoverImageComponent from "../../components/HoverImageComponent";
+import ImageSrc from "../../assets/truman.gif";
+import Talking from "../../assets/talking.gif";
 
 function Footer() {
   const handleLinkedinClick = () => {
@@ -32,7 +35,12 @@ function Footer() {
       <div className="groupchild w-5/6 h-full flex flex-col justify-between items-stretch ">
         <div class="heading flex flex-col items-center justify-center mt-10">
           <span class="font-black tracking-tighter text-customBg text-[2.2rem] sm:text-[3rem] md:text-[3.87rem] lg:text-[5.21rem] xl:text-[6.52rem]">
-            YOU TALKING TO ME?
+            <HoverImageComponent
+              imageSrc={Talking}
+              alt="Designed Image"
+              className="inline-block"
+              text="YOU TALKING TO ME?"
+            />
           </span>
           <span class="font-normal tracking-tighter text-customBg text-[0.5rem] md:text-[0.75rem] lg:text-[1rem] xl:text-[1.2rem]">
             Ah, fellow rebel! Unless you're here to write your life story in a
@@ -158,9 +166,18 @@ function Footer() {
           </div>
           <div className="flex flex-col items-start md:items-end">
             <span className="font-semibold text-customBg text-md">
-              Oh and in case I don't see ya
-              <br />
-              Good afternoon, Good evening and Goodnight
+              <HoverImageComponent
+                imageSrc={ImageSrc}
+                alt="Designed Image"
+                className="inline-block"
+                text={
+                  <>
+                    Oh and in case I don't see ya
+                    <br />
+                    Good afternoon, Good evening and Goodnight
+                  </>
+                }
+              />
             </span>
             {/* <span className="font-bold text-customBg text-lg">Version.1</span> */}
           </div>
