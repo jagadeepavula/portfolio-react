@@ -1,5 +1,5 @@
 import Accordian, { AccordianItem } from "../../components/Accordian";
-import designedImage from "../../assets/spidey.gif";
+import designedImage from "../../assets/hope.gif";
 import HoverImageComponent from "../../components/HoverImageComponent";
 
 function Work() {
@@ -10,16 +10,16 @@ function Work() {
           <span className=" sm:text-7xl text-5xl text-customExperience font-black">
             Experiences
           </span>
-          <span className=" sm:text-justify font-semibold text-md text-customUl">
+          <span className=" items-center justify-center sm:text-justify font-semibold text-md text-customUl">
             <HoverImageComponent
               imageSrc={designedImage}
               alt="Designed Image"
               className="inline-block"
-              text="I'm not afraid of storms, for I'm learning how to sail my ship"
+              text="Hope is a good thing..."
             />{" "}
-            Every project is a journey of discovery, improving my skills and
-            focus. I learn, innovate, and progress, seeing challenges as
-            opportunities.
+            it fuels my perseverance as I approach every project as a learning
+            adventure. These experiences ignited my curiosity, transforming the
+            challenge into an opportunity for growth and sharpening my skills.
           </span>
         </div>
       </div>
