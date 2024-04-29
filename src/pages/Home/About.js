@@ -79,6 +79,27 @@ function About() {
           <span className="font-black text-5xl">Education</span>
         </div>
         <div className="parenteducation rightelement col-span-10 lg:col-span-6">
+          <div className="education2 mb-8 flex flex-row justify-between relative">
+            <div>
+              <span className="font-extrabold md:text-3xl text-2xl">
+                MASTER OF ENGINEERING
+              </span>
+              <br />
+              <span className="font-extrabold md:text-3xl text-2xl">
+                COMPUTER SCIENCE{" "}
+              </span>
+              <br />
+              <span className="font-bold md:text-2xl text-xl">
+                Oregon State University
+                <br /> Corvallis, Oregon, USA
+              </span>
+              <br />
+              <span className="text-md md:text-lg">Sept 2021- Mar 2023</span>
+            </div>
+            <div className="absolute top-0 right-0">
+              <img src={OSU} alt="" className="w-32 opacity-30"></img>
+            </div>
+          </div>
           <div className="education1 flex flex-row justify-between relative">
             <div className="">
               <span className="font-extrabold md:text-3xl text-2xl">
@@ -98,27 +119,6 @@ function About() {
             </div>
             <div className="absolute top-0 right-0">
               <img src={REC} alt="" className="w-36 opacity-30"></img>
-            </div>
-          </div>
-          <div className="education2 mt-8 flex flex-row justify-between relative">
-            <div>
-              <span className="font-extrabold md:text-3xl text-2xl">
-                MASTER OF ENGINEERING
-              </span>
-              <br />
-              <span className="font-extrabold md:text-3xl text-2xl">
-                COMPUTER SCIENCE{" "}
-              </span>
-              <br />
-              <span className="font-bold md:text-2xl text-xl">
-                Oregon State University
-                <br /> Corvallis, Oregon, USA
-              </span>
-              <br />
-              <span className="text-md md:text-lg">Sept 2021- Mar 2023</span>
-            </div>
-            <div className="absolute top-0 right-0">
-              <img src={OSU} alt="" className="w-32 opacity-30"></img>
             </div>
           </div>
         </div>

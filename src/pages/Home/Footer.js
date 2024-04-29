@@ -34,7 +34,7 @@ function Footer() {
     <div className="group h-[80vh] w-[100%] flex flex-col justify-center items-center bg-customText rounded-t-3xl mt-56">
       <div className="groupchild w-5/6 h-full flex flex-col justify-between items-stretch ">
         <div class="heading flex flex-col items-center justify-center mt-10">
-          <span class="font-black tracking-tighter text-customBg text-[2.2rem] sm:text-[3rem] md:text-[3.87rem] lg:text-[5.21rem] xl:text-[6.52rem]">
+          <span class="font-black tracking-tighter text-customBg text-[2rem] sm:text-[3rem] md:text-[3.87rem] lg:text-[5.21rem] xl:text-[6.52rem]">
             <HoverImageComponent
               imageSrc={Talking}
               alt="Designed Image"

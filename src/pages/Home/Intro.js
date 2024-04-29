@@ -13,7 +13,7 @@ function Intro() {
     <div id="home" className="flex h-screen justify-center">
       <div className="flex flex-col w-5/6 justify-center">
         <motion.span
-          className="font-bold text-5xl sm:text-6xl text-customText md:text-7xl lg:text-8xl tracking-tighter"
+          className="font-bold text-[2.8rem] sm:text-6xl text-customText md:text-7xl lg:text-8xl tracking-tighter"
           variants={textVariants}
           initial="hidden"
           animate="visible"
@@ -23,7 +23,7 @@ function Intro() {
         </motion.span>
         <br />
         <motion.span
-          className="font-bold text-5xl text-customText sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter"
+          className="font-bold text-[2.8rem] text-customText sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter"
           variants={textVariants}
           initial="hidden"
           animate="visible"
