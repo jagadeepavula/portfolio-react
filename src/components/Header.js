@@ -63,7 +63,7 @@ function Header() {
       id="header"
       className={`fixed top-0 left-0 right-0 z-50 ${
         menuOpen
-          ? "h-screen w-screen flex justify-center pt-40 fixed inset-0 bg-customBg bg-opacity-95"
+          ? "h-screen w-screen flex justify-center pt-40 fixed inset-0 bg-customBg bg-opacity-100"
           : ""
       }`}
     >

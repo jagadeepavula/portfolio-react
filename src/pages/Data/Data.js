@@ -50,7 +50,7 @@ const Datas = [
     Link: "https://www.figma.com/proto/vN0ioT23UcEAYzTLtifNeO/First-Prototype?node-id=52-960&scaling=scale-down&page-id=0%3A1&starting-point-node-id=11%3A28",
     category: "Design",
     image: Survival,
-    desc: "I designed a user-friendly interface using Figma to help the homeless and underprivileged easily locate free housing, food, and clothing resources. The UI aims to solve the problem of uncertainty and inconvenience in finding essential resources during tough times.",
+    desc: "I designed an interface using Figma to help the homeless and underprivileged easily locate free housing, food, and clothing resources. The UI aims to solve the problem of uncertainty and inconvenience in finding essential resources during tough times.",
     moreDetails: `
     <a href="https://drive.google.com/drive/folders/1guVzfnrEn9ba7PRfOX62HpAf6q075fNk">Google Drive Folder</a><br/>
     <h3 class="text-3xl font-bold">Project Overview</h3>
