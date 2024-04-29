@@ -54,13 +54,13 @@ export function AccordianItem({
 
   return (
     <ul
-      className="rounded-3xl transition-colors duration-300 hover:bg-black w-5/6"
+      className="rounded-3xl transition-colors duration-300 hover:bg-black w-11/12 sm:w-5/6"
       {...props}
     >
       <header
         role="button"
         onClick={handleHeaderClick}
-        className="flex justify-between items-center p-10 "
+        className="flex justify-between items-center p-7 sm:p-10 "
       >
         <div className="grid text-customExperience">
           <div className="md:text-5xl sm:text-4xl text-3xl font-black">
