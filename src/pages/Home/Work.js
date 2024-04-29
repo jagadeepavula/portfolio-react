@@ -33,7 +33,7 @@ function Work() {
               subText="Full Stack developer"
               dateText="August 23-December 23"
               additionalContent={
-                <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
+                <div className="flex flex-row gap-0 sm:gap-4 justify-center items-center">
                   <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
                     Python
                   </span>
