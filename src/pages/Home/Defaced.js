@@ -57,7 +57,7 @@ function Defaced() {
                 <img
                   src={weekndImage}
                   alt=""
-                  className="object-cover h-auto w-auto rounded-3xl shadow-2xl"
+                  className="object-cover rounded-3xl shadow-2xl"
                 />
               </div>
             </motion.div>
@@ -77,7 +77,7 @@ function Defaced() {
                 <img
                   src={silkImage}
                   alt=""
-                  className="object-cover h-auto w-full rounded-3xl shadow-2xl"
+                  className="object-cover rounded-3xl shadow-2xl"
                 />
               </div>
             </motion.div>
@@ -96,7 +96,7 @@ function Defaced() {
                 <img
                   src={fightclubImage}
                   alt=""
-                  className="object-cover h-auto w-full rounded-3xl shadow-2xl"
+                  className="object-cover rounded-3xl shadow-2xl"
                 />
               </div>
             </motion.div>
@@ -116,7 +116,7 @@ function Defaced() {
                 <img
                   src={jokerImage}
                   alt=""
-                  className="object-cover h-auto w-full rounded-3xl shadow-2xl"
+                  className="object-cover rounded-3xl shadow-2xl"
                 />
               </div>
             </motion.div>
@@ -136,7 +136,7 @@ function Defaced() {
                 <img
                   src={bilieImage}
                   alt=""
-                  className="object-cover h-auto w-full rounded-3xl shadow-2xl"
+                  className="object-cover rounded-3xl shadow-2xl"
                 />
               </div>
             </motion.div>

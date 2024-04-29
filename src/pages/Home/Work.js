@@ -25,7 +25,7 @@ function Work() {
       </div>
       <hr className="w-5/6 mx-auto border-teal-500" />
       <div className="w-fit flex flex-col items-center justify-center">
-        <div className=" w-fit flex flex-col items-center justify-center">
+        <div className="w-fit flex flex-col items-center justify-center">
           <Accordian className="parent flex flex-col items-center justify-center">
             <AccordianItem
               value="1"
@@ -33,7 +33,7 @@ function Work() {
               subText="Full Stack developer"
               dateText="August 23-December 23"
               additionalContent={
-                <div className="flex flex-row gap-4 justify-center items-center">
+                <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
                   <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
                     Python
                   </span>
@@ -81,7 +81,7 @@ function Work() {
               subText="IT Specialist"
               dateText="June 23 - March 23"
               additionalContent={
-                <div className="flex flex-row gap-4 justify-center items-center">
+                <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
                   <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
                     SQL
                   </span>
@@ -117,7 +117,7 @@ function Work() {
               subText="Software Developer"
               dateText="April 20 - March 21"
               additionalContent={
-                <div className="flex flex-row gap-4 justify-center items-center">
+                <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
                   <span className="px-2 py-2 rounded-3xl bg-teal-50 text-customBlack">
                     Java
                   </span>
@@ -171,7 +171,7 @@ function Work() {
               subText="Front-End Developer"
               dateText="December 18 - March 20"
               additionalContent={
-                <div className="flex flex-row gap-4 justify-center items-center">
+                <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
                   <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
                     JavaScript
                   </span>
