@@ -27,8 +27,51 @@ function Work() {
       <div className="w-fit flex flex-col items-center justify-center">
         <div className="w-fit flex flex-col items-center justify-center">
           <Accordian className="parent flex flex-col items-center justify-center">
+            {/* experience1 */}
             <AccordianItem
               value="1"
+              trigger="MakeitMVP"
+              subText="Full Stack Developer"
+              dateText="June 24 - August 24"
+              additionalContent={
+                <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
+                  <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
+                    React
+                  </span>
+                  <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
+                    Sass
+                  </span>
+                  <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
+                    ChatGPT API
+                  </span>
+                  <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
+                    Firebase
+                  </span>
+                </div>
+              }
+            >
+              <ul>
+                <li>
+                  Implemented AI-driven user matching using ChatGPT API for
+                  personalized accountability partnerships based on user profile
+                </li>
+                <li>
+                  Engineered a Python backend integrated with Firebase for
+                  secure data storage, supporting robust goal tracking
+                </li>
+                <li>
+                  Developed a Python backend and used Firebase for secure data
+                  storage, supporting goal tracking
+                </li>
+                <li>
+                  Integrated scalable AI features within the platform, improving
+                  performance and user satisfaction
+                </li>
+              </ul>
+            </AccordianItem>
+            {/* experience2 */}
+            <AccordianItem
+              value="2"
               trigger="Amerifab International Inc"
               subText="Full Stack developer"
               dateText="August 23-December 23"
@@ -54,32 +97,43 @@ function Work() {
             >
               <ul>
                 <li>
-                  Designed and architected the application, focusing on
-                  scalability.
+                  Led a transformative project with a five-member team to
+                  enhance production floor efficiency
                 </li>
                 <li>
-                  Utilized Python scripts for data extraction from MyWay and
-                  integrated AWS services like SQS to trigger Lambda functions
-                  for seamless data flow into S3 and Postgres DB.
+                  Oversaw the design and architecture of a scalable application
+                  integrating various AWS services
                 </li>
                 <li>
-                  Implemented robust error handling with SQS DLQ for failovers
-                  and alerts.
+                  Improved operation efficiency by 200% by automating data
+                  retrieval from MyWay with Python scripts, SQS triggers
                 </li>
                 <li>
-                  Developed a REST API with FAST API, used React framework for
-                  frontend development, and leveraged AWS services for hosting
-                  and management.
+                  Optimized development workflow with GitHub Actions for rapid
+                  updates and Docker for streamlined containerization
+                </li>
+                <li>
+                  Boosted backend performance by 40% using Python, FAST API, and
+                  Postgres SQL for efficient code execution
+                </li>
+                <li>
+                  Enhanced UI responsiveness by 30% using HTML, CSS, JavaScript,
+                  and React, resulting in a more engaging user experience.
+                </li>
+                <li>
+                  Increased system reliability by 50% by leveraging AWS
+                  services, including Postgres SQL, Lambda functions, SQS, and
+                  EC2
                 </li>
               </ul>
             </AccordianItem>
 
-            {/* experience2 */}
+            {/* experience3 */}
             <AccordianItem
-              value="2"
+              value="3"
               trigger="Oregon State University"
-              subText="IT Specialist"
-              dateText="June 23 - March 23"
+              subText="IT Specialist - Data Integration and Automation"
+              dateText="June 22 - March 23"
               additionalContent={
                 <div className="flex flex-row gap-1 sm:gap-4 justify-center items-center">
                   <span className="px-4 py-2 rounded-3xl bg-teal-50 text-customBlack">
@@ -96,23 +150,28 @@ function Work() {
             >
               <ul>
                 <li>
-                  Successfully managing hybrid Mac/Windows IT systems, serving a
-                  workforce of over 200 employees
+                  Led data cleansing initiatives using SQL queries to eliminate
+                  duplicate entries and ensure database integrity
                 </li>
                 <li>
-                  Continuously learn new tools and systems, gaining in-depth
-                  knowledge to assist users and manage permissions effectively
+                  Generated and dispatched weekly data retrieval reports,
+                  enabling the dev team to optimize code for efficient data
+                  storage
                 </li>
                 <li>
-                  Proficiently store and manage vast amounts of data, utilizing
-                  SQL queries to extract information and solve complex problems
+                  Developed SQL queries to extract and organize time-in/time-out
+                  data of employees, facilitating strategic employee scheduling
+                </li>
+                <li>
+                  Enhanced data integrity and efficiency by developing a data
+                  cleansing strategy with SQL and Python, removing duplicates
                 </li>
               </ul>
             </AccordianItem>
 
-            {/* experience3 */}
+            {/* experience4 */}
             <AccordianItem
-              value="3"
+              value="4"
               trigger="Skela Technologies"
               subText="Software Developer"
               dateText="April 20 - March 21"
@@ -141,17 +200,16 @@ function Work() {
             >
               <ul>
                 <li>
-                  Developed Java-based RESTful APIs, leveraging HTML, CSS, and
-                  JavaScript for responsive web applications.
+                  Developed Java RESTful APIs and responsive web apps with HTML,
+                  CSS, and JavaScript, boosting performance by 40%
                 </li>
                 <li>
-                  Designed and optimized SQL database schemas in PostgreSQL,
-                  ensuring efficient data access and retrieval
+                  Optimized SQL database schemas in PostgreSQL, resulting in 30%
+                  faster data access and retrieval.
                 </li>
                 <li>
-                  Seamlessly integrated AWS services, including Amazon S3 for
-                  scalable storage and EC2 for hosting applications, enhancing
-                  system architecture and scalability
+                  Integrated AWS services (S3 for storage, EC2 for hosting),
+                  enhancing system architecture and scalability by 50%
                 </li>
                 <li>
                   Employed a comprehensive Java stack, utilizing Maven for
@@ -161,12 +219,22 @@ function Work() {
                   Spring framework and Spring Boot for scalable and streamlined
                   enterprise application development
                 </li>
+                <li>
+                  Utilized a comprehensive Java stack: Maven for project
+                  management, JDBC for database connectivity, Servlets for HTTP
+                  requests, Hibernate for ORM, and Spring Boot for scalable
+                  enterprise application development
+                </li>
+                <li>
+                  Used Postman and JUnit for API testing, ensuring Java-based
+                  RESTful API functionality, performance with automated scripts
+                </li>
               </ul>
             </AccordianItem>
 
-            {/* experience4 */}
+            {/* experience5 */}
             <AccordianItem
-              value="4"
+              value="5"
               trigger="Slarity"
               subText="Front-End Developer"
               dateText="December 18 - March 20"
@@ -192,20 +260,30 @@ function Work() {
             >
               <ul>
                 <li>
-                  Designed and developed logos, online advertisements, and
-                  interactive social media posts, meeting the high standards and
-                  requirements of the company using Adobe Creative Cloud.
+                  Implemented a custom caching mechanism in JavaScript, reducing
+                  API response time by 30%, improving overall performance
                 </li>
                 <li>
-                  Produced various website icons and collaborated with
-                  colleagues on front-end development and implementation of
-                  other collateral using Figma.
+                  Enhanced front-end apps, reducing load times and improving
+                  conversions by 20% with ReactJS HTML CSS and Javascript
                 </li>
                 <li>
-                  Contributed to web development projects as a key member of the
-                  development team, leveraging expertise in HTML, CSS, and
-                  Javascript, while implementing rigorous test cases to validate
-                  software quality and functionality
+                  Boosted profits by 15% using ReactJS and FramerMotion to
+                  improve website performance and design, boosting user
+                  engagement
+                </li>
+                <li>
+                  Created quality mockups and prototypes by using Figma to
+                  validate functionality, leading to a 14% rise in prototype
+                  approval
+                </li>
+                <li>
+                  Increased testing efficiency by 40% with Selenium automation,
+                  improving coverage and detecting issues faster
+                </li>
+                <li>
+                  Enhanced brand visibility and user engagement by 50% by logo
+                  design, branding, and media posts using Adobe Creative Tools
                 </li>
               </ul>
             </AccordianItem>
