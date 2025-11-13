@@ -28,7 +28,7 @@ const workExperiences = [
   {
     id: "1",
     company: "One Click Immigration Pvt. Ltd",
-    role: "AI Engineer",
+    role: "Software Developer",
     period: "December 2024 - Present",
     skills: [
       "PHP",
