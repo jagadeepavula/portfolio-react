@@ -1,5 +1,31 @@
 const workExperiences = [
   {
+    id: "7",
+    company: "Quadrant Technologies LLC (Contract to Microsoft)",
+    role: "AI Engineer",
+    period: "October 2025 - Present",
+    skills: [
+      "Azure OpenAI",
+      "Azure AI Search",
+      "Document Intelligence",
+      "Content Understanding",
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "MCP",
+      "RAG Systems",
+      "AI Agents",
+    ],
+    responsibilities: [
+      "Engineering enterprise-grade RAG-based solutions for Microsoft clients using Azure OpenAI and Azure AI Search, delivering intelligent document processing systems with 90%+ accuracy in information retrieval",
+      "Architecting multi-agent AI systems with LangGraph and LangChain that orchestrate complex workflows, reducing manual processing time by 75% for client operations",
+      "Implementing Document Intelligence and Content Understanding pipelines that extract and structure data from diverse document formats, processing 10,000+ documents daily with consistent quality",
+      "Developing scalable AI agent frameworks using Python and MCP (Model Context Protocol) that enable seamless integration between multiple Azure services and client systems",
+      "Building production-ready vector search solutions with Azure AI Search that power semantic search capabilities across enterprise knowledge bases with sub-second query response times",
+      "Collaborating directly with Microsoft enterprise clients to understand requirements, design AI architectures, and deliver cloud-native solutions that meet strict security and compliance standards",
+    ],
+  },
+  {
     id: "1",
     company: "One Click Immigration Pvt. Ltd",
     role: "Software Developer",
