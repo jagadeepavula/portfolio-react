@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, useDragControls, useMotionValue } from 'framer-motion';
+import ProjectDetails from './ProjectDetails';
 
 function Card({ item }) {
     const [showModal, setShowModal] = useState(false);
-    const [selectedDesc, setSelectedDesc] = useState('');
-    const [selectedAdditionalData, setSelectedAdditionalData] = useState('');
+    const [selectedProject, setSelectedProject] = useState(null);
 
     const controls = useDragControls();
     const y = useMotionValue(0);
 
-    const handleDetailsClick = (id, desc, herosa) => {
-        setSelectedDesc(desc);
-        setSelectedAdditionalData(herosa);
+    const handleDetailsClick = (project) => {
+        setSelectedProject(project);
         setShowModal(true);
     };
 
@@ -72,13 +71,10 @@ function Card({ item }) {
                     style={{
                         overflowY: 'auto',
                         scrollbarWidth: 'none',
-                        '&::-webkit-scrollbar': {
-                            display: 'none',
-                        },
+                        msOverflowStyle: 'none',
                     }}
-                    className='text-3xl font-bold relative h-full w-5/6 justify-center items-center text-justify p-4 pt-12 text-white modal-content scrollbar-hidden overflow-y-auto'>
-                    <div dangerouslySetInnerHTML={{ __html: selectedDesc }}></div>
-                    {selectedAdditionalData && <div className="mt-4 text-xl font-bold" dangerouslySetInnerHTML={{ __html: selectedAdditionalData }}></div>}
+                    className='relative h-full w-5/6 justify-center items-center p-4 pt-12 modal-content overflow-y-auto [&::-webkit-scrollbar]:hidden'>
+                    {selectedProject && <ProjectDetails project={selectedProject} />}
                 </div>
 
 
@@ -116,7 +112,7 @@ function Card({ item }) {
                                     {/* Details Button */}
                                     <button
                                         className='flex flex-grow border-none justify-center text-base rounded-3xl bg-black cursor-pointer text-white font-bold items-center h-9 w-16 no-underline'
-                                        onClick={() => handleDetailsClick(val.id, val.moreDetails, val.herosa)}
+                                        onClick={() => handleDetailsClick(val)}
                                     >
                                         Details
                                     </button>
