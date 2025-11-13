@@ -8,15 +8,12 @@ import {
   FiLayers,
   FiZap,
   FiEye,
-  FiUsers,
-  FiAward,
-  FiPalette,
+  FiImage,
   FiTool
 } from 'react-icons/fi';
 
 const ProjectDetails = ({ project }) => {
   const isCodeProject = project.category === "Code";
-  const isDesignProject = project.category === "Design";
 
   // Extract tech stack from the content or use predefined ones
   const getTechStack = () => {
@@ -118,7 +115,7 @@ const ProjectDetails = ({ project }) => {
     if (lowerTitle.includes('solution') || lowerTitle.includes('overview')) return <FiCheckCircle className="text-2xl" />;
     if (lowerTitle.includes('technical') || lowerTitle.includes('implementation')) return <FiCode className="text-2xl" />;
     if (lowerTitle.includes('impact') || lowerTitle.includes('outcome') || lowerTitle.includes('result')) return <FiTrendingUp className="text-2xl" />;
-    if (lowerTitle.includes('design') || lowerTitle.includes('creative')) return <FiPalette className="text-2xl" />;
+    if (lowerTitle.includes('design') || lowerTitle.includes('creative')) return <FiImage className="text-2xl" />;
     if (lowerTitle.includes('features') || lowerTitle.includes('key')) return <FiLayers className="text-2xl" />;
     if (lowerTitle.includes('tool')) return <FiTool className="text-2xl" />;
     return <FiZap className="text-2xl" />;
@@ -246,7 +243,7 @@ const ProjectDetails = ({ project }) => {
             </>
           ) : (
             <>
-              <FiPalette className="text-xl" />
+              <FiImage className="text-xl" />
               View Design
             </>
           )}
